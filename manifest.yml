@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: HelloUTeM101
+  host: HelloUTeM101
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-fo
+  - availability-monitoring-auto
